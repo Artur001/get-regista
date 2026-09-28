@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 72" width="440" height="72" role="img" aria-label="Download Regista for Windows">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#43f0ab"/>
+      <stop offset="1" stop-color="#22c985"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="438" height="70" rx="16" fill="url(#b)" stroke="#0b3325" stroke-opacity="0.35"/>
+  <g fill="none" stroke="#06241a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 20 v22"/>
+    <path d="M42 33 l10 10 l10 -10"/>
+    <path d="M38 50 h28"/>
+  </g>
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" fill="#06241a">
+    <text x="84" y="35" font-size="22" font-weight="700">Download Regista</text>
+    <text x="84" y="56" font-size="14" font-weight="500" fill-opacity="0.75">Windows 10/11 · free · about 2 minutes</text>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="Regista: the playmaker for your FC 27 Ultimate Team">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07140f"/>
+      <stop offset="0.55" stop-color="#0c2a1f"/>
+      <stop offset="1" stop-color="#103a2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#2ee59d" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2ee59d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b8f5d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#glow)"/>
+  <!-- pitch lines -->
+  <g fill="none" stroke="#2ee59d" stroke-opacity="0.13" stroke-width="2">
+    <rect x="700" y="40" width="540" height="340" rx="6"/>
+    <line x1="970" y1="40" x2="970" y2="380"/>
+    <circle cx="970" cy="210" r="62"/>
+    <rect x="700" y="130" width="86" height="160"/>
+    <rect x="1154" y="130" width="86" height="160"/>
+  </g>
+  <!-- passing lanes from the deep playmaker -->
+  <g stroke="#2ee59d" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 9" fill="none" stroke-opacity="0.7">
+    <path d="M880 250 Q 960 150 1080 120"/>
+    <path d="M880 250 Q 990 260 1110 290"/>
+    <path d="M880 250 Q 930 320 1010 330"/>
+  </g>
+  <g fill="#2ee59d">
+    <circle cx="880" cy="250" r="13"/>
+    <circle cx="1080" cy="120" r="8" fill-opacity="0.85"/>
+    <circle cx="1110" cy="290" r="8" fill-opacity="0.85"/>
+    <circle cx="1010" cy="330" r="8" fill-opacity="0.85"/>
+  </g>
+  <circle cx="880" cy="250" r="24" fill="none" stroke="#2ee59d" stroke-opacity="0.45" stroke-width="2"/>
+  <!-- wordmark -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="72" y="118" font-size="22" font-weight="600" letter-spacing="6" fill="#2ee59d">◈ EA FC 27 · ULTIMATE TEAM</text>
+    <text x="68" y="228" font-size="112" font-weight="800" letter-spacing="-2" fill="url(#word)">Regista</text>
+    <text x="72" y="282" font-size="30" font-weight="500" fill="#d6efe4">The playmaker for your Ultimate Team.</text>
+    <text x="72" y="340" font-size="21" fill="#8fb8a6">Best XI  ·  Cheapest SBCs  ·  Gallery Level 10  ·  Lowest-price market</text>
+  </g>
+</svg>
