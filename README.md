@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Artur001/get-regista/releases/latest/download/Install-Regista.cmd"><img src="assets/download.svg" alt="Download Regista for Windows" height="72"></a>
+  <a href="https://github.com/Artur001/get-regista/releases/latest/download/Regista-Setup.zip"><img src="assets/download.svg" alt="Download Regista for Windows" height="72"></a>
 </p>
 
 <p align="center">
@@ -30,25 +30,15 @@ A *regista* is the deep-lying playmaker who runs the game from midfield. Regista
 
 ## Install (about 2 minutes)
 
-**1. Click Download above.** If your browser asks, choose **Keep**.
+**1. Click Download above.** You get `Regista-Setup.zip`. If your browser asks, choose **Keep**.
 
-**2. Double-click `Install-Regista.cmd`.** Windows may say *"Windows protected your PC"*, because the installer isn't from a big company. Click **More info** → **Run anyway**. It then does everything by itself: downloads Regista, installs Python if you don't have it, sets up the engine and starts it whenever you sign in.
+**2. Unzip it and run the setup.** Right-click the zip → **Extract All**, open the **Regista** folder and double-click **Setup Regista.cmd**. Windows may say *"Windows protected your PC"*, because the setup isn't from a big company. Click **More info** → **Run anyway**. It then does everything by itself: installs Python if you don't have it, copies Regista to your PC, sets up the engine and starts it whenever you sign in. Regista is already inside the zip, so the setup doesn't download and run anything else.
 
 **3. One click in your browser.** Your extensions page opens with the folder already copied. Turn on **Developer mode**, click **Load unpacked**, press **Ctrl+V** and **Enter**. Browsers only let store extensions skip this step, and you only do it once.
 
 **4. Open the [FC 27 Web App](https://www.ea.com/ea-sports-fc/ultimate-team/web-app/).** Regista appears inside EA's own screens: in every SBC, under Squads, Transfers, Club and Settings, and as a **Gallery** tab in the menu. **Alt+L** jumps to Regista on the current screen.
 
 **Language:** Regista follows your Web App language. Change it under **Settings** → Regista → **Language**.
-
-<details>
-<summary>Prefer one line in PowerShell?</summary>
-
-Open PowerShell, paste this and press Enter. It does the same as the download.
-
-```powershell
-irm https://gist.githubusercontent.com/Artur001/0bd1a0a032ee9a38337fa91840bfc176/raw/install.ps1 | iex
-```
-</details>
 
 ## Updates
 
@@ -78,7 +68,7 @@ No. The engine starts hidden when you sign in to Windows. Just open the Web App.
 <details>
 <summary><b>The panel says "solver off".</b></summary>
 
-Run the installer again. It repairs the install and keeps your settings.
+Run **Setup Regista.cmd** again. It repairs the install and keeps your settings.
 </details>
 
 <details>

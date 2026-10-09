@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Artur001/get-regista/releases/latest/download/Install-Regista.cmd"><img src="assets/download.svg" alt="Regista für Windows herunterladen" height="72"></a>
+  <a href="https://github.com/Artur001/get-regista/releases/latest/download/Regista-Setup.zip"><img src="assets/download.svg" alt="Regista für Windows herunterladen" height="72"></a>
 </p>
 
 <p align="center">
@@ -30,25 +30,15 @@ Ein *Regista* ist der tief stehende Spielmacher, der das Spiel aus dem Mittelfel
 
 ## Installieren (etwa 2 Minuten)
 
-**1. Klicke oben auf Download.** Wenn dein Browser fragt, wähle **Behalten**.
+**1. Klicke oben auf Download.** Du bekommst `Regista-Setup.zip`. Wenn dein Browser fragt, wähle **Behalten**.
 
-**2. Doppelklicke `Install-Regista.cmd`.** Windows sagt vielleicht *„Der Computer wurde durch Windows geschützt“*, weil der Installer nicht von einer großen Firma stammt. Klicke auf **Weitere Informationen** → **Trotzdem ausführen**. Danach macht er alles allein: lädt Regista herunter, installiert Python, falls du es nicht hast, richtet die Engine ein und startet sie bei jeder Anmeldung.
+**2. Entpacken und Setup starten.** Rechtsklick auf die ZIP-Datei → **Alle extrahieren**, den Ordner **Regista** öffnen und **Setup Regista.cmd** doppelklicken. Windows sagt vielleicht *„Der Computer wurde durch Windows geschützt“*, weil das Setup nicht von einer großen Firma stammt. Klicke auf **Weitere Informationen** → **Trotzdem ausführen**. Danach macht es alles allein: installiert Python, falls du es nicht hast, kopiert Regista auf deinen PC, richtet die Engine ein und startet sie bei jeder Anmeldung. Regista steckt schon in der ZIP-Datei, das Setup lädt also nichts anderes herunter, um es auszuführen.
 
 **3. Ein Klick im Browser.** Deine Erweiterungsseite öffnet sich, der Ordner ist schon kopiert. Schalte den **Entwicklermodus** ein, klicke auf **Entpackte Erweiterung laden**, drücke **Strg+V** und **Enter**. Browser lassen nur Store-Erweiterungen diesen Schritt überspringen, und du machst ihn nur einmal.
 
 **4. Öffne die [FC 27 Web App](https://www.ea.com/de-de/ea-sports-fc/ultimate-team/web-app/).** Regista erscheint direkt in EAs Bildschirmen: in jeder SBC, unter Teams, Transfers, Verein und Einstellungen, und als Tab **Galerie** im Menü. **Alt+L** springt auf dem aktuellen Bildschirm zu Regista.
 
 **Sprache:** Regista folgt der Sprache deiner Web App. Ändern kannst du sie unter **Einstellungen** → Regista → **Sprache**.
-
-<details>
-<summary>Lieber eine Zeile in PowerShell?</summary>
-
-Öffne PowerShell, füge das ein und drücke Enter. Es macht dasselbe wie der Download.
-
-```powershell
-irm https://gist.githubusercontent.com/Artur001/0bd1a0a032ee9a38337fa91840bfc176/raw/install.ps1 | iex
-```
-</details>
 
 ## Updates
 
@@ -78,7 +68,7 @@ Nein. Die Engine startet versteckt, wenn du dich bei Windows anmeldest. Öffne e
 <details>
 <summary><b>Regista zeigt „Solver aus“.</b></summary>
 
-Führe den Installer noch einmal aus. Er repariert die Installation und behält deine Einstellungen.
+Führe **Setup Regista.cmd** noch einmal aus. Es repariert die Installation und behält deine Einstellungen.
 </details>
 
 <details>
