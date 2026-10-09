@@ -8,8 +8,10 @@
 
 <p align="center">
   <b>No daily limits · no ads · no account · runs on your own PC</b><br>
-  <sub>Works in the EA FC 27 Web App with Chrome or Edge on Windows 10 or 11.</sub>
+  <sub>Works in the EA FC 27 Web App with Chrome or Edge on Windows 10 or 11. In English and German.</sub>
 </p>
+
+<p align="center"><b>English</b> · <a href="README.de.md">Deutsch</a></p>
 
 ---
 
@@ -20,10 +22,10 @@ A *regista* is the deep-lying playmaker who runs the game from midfield. Regista
 | | |
 |---|---|
 | **Best XI** | Tries every formation with your own cards, counts chemistry exactly like EA, fits roles and tactics to your players. Proven best, not guessed. |
-| **SBCs** | The cheapest squad that meets the requirements, counting what each card really costs you. **Build whole set** plans every squad of a multi-squad SBC together, so no card is wasted in the wrong squad. Filled in as a draft; you submit. |
+| **SBCs** | The cheapest squad that meets the requirements, counting what each card really costs you. Filled in as a draft; you submit. |
 | **Gallery** | One button to your route to Level 10, with a grid of every set and its grade. Aim for Level 10, the most tokens per coin, or one set to a chosen grade. Cards are bought and relisted, so each one only costs the 5% tax. |
-| **Gallery on every card** | EA's own player cards show **✓** if you've collected them, or **+N** for the Gallery score they'd add. SBCs can prefer cards your Gallery still needs, so you collect them for free. |
-| **Market** | Buy any card or list yours at the proven lowest live price. |
+| **Gallery on every card** | EA's own player cards show **✓** if you've collected them, or **NEW** if your Gallery doesn't have them yet. |
+| **Market** | Buy any card or list yours at the proven lowest live price, with one button on EA's own card view. |
 | **Upgrades and hidden gems** | Market cards that clearly improve *your* team within your coins, and cards that play far above their rating. |
 
 ## Install (about 2 minutes)
@@ -34,7 +36,9 @@ A *regista* is the deep-lying playmaker who runs the game from midfield. Regista
 
 **3. One click in your browser.** Your extensions page opens with the folder already copied. Turn on **Developer mode**, click **Load unpacked**, press **Ctrl+V** and **Enter**. Browsers only let store extensions skip this step, and you only do it once.
 
-**4. Open the [FC 27 Web App](https://www.ea.com/ea-sports-fc/ultimate-team/web-app/)** and click the green **◈ REGISTA** button, or press **Alt+L**.
+**4. Open the [FC 27 Web App](https://www.ea.com/ea-sports-fc/ultimate-team/web-app/).** Regista appears inside EA's own screens: in every SBC, under Squads, Transfers, Club and Settings, and as a **Gallery** tab in the menu. **Alt+L** jumps to Regista on the current screen.
+
+**Language:** Regista follows your Web App language. Change it under **Settings** → Regista → **Language**.
 
 <details>
 <summary>Prefer one line in PowerShell?</summary>
